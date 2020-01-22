@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: pwa-container
-          image: docker.pkg.github.com/mpowered-health/mpowered-health-pwa/mpower-pwa:latest
+          image: docker.pkg.github.com/mpowered-health/mpowered-health-pwa/mpower-pwa:test-release-26
       imagePullSecrets:
         - name: regcred
